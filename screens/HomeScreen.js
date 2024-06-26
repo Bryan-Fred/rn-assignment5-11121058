@@ -246,27 +246,33 @@ const styles = StyleSheet.create({
     paddingLeft: 12,
     paddingRight: 10,
   },
+  
   header: {
     flexDirection: "row",
     alignItems: "center",
     marginBottom: 25,
   },
+
   userImage: {
     width: 50,
     height: 50,
     borderRadius: 25,
   },
+
   userInfo: {
     marginLeft: 12,
     flex: 1,
   },
+
   welcomeText: {
     fontSize: 16,
   },
+
   userName: {
     fontSize: 18,
     fontWeight: "500",
   },
+
   searchIcon: {
     marginLeft: "auto",
     height: 46,
@@ -276,23 +282,28 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 23,
   },
+  
   text: {
     fontSize: 20,
   },
+
   cardContainer: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 10,
   },
+
   belowCard: {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
   },
+
   cardImage: {
     width: "100%",
   },
+
   icons: {
     height: 60,
     width: 60,
@@ -301,6 +312,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 30,
   },
+
   iconNamesBox: {
     display: "flex",
     flexDirection: "row",
@@ -309,31 +321,38 @@ const styles = StyleSheet.create({
     paddingRight: 2,
     marginBottom: 20,
   },
+
   iconName: {
     fontSize: 18,
   },
+
   listTitle: {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
     marginBottom: 20,
   },
+  
   transaction: {
     fontSize: 18,
     fontWeight: "500",
   },
+
   seeAll: {
     fontSize: 16,
     fontWeight: "500",
   },
+
   transactionList: {
     marginTop: 0,
   },
+
   transactionItem: {
     flexDirection: "row",
     alignItems: "center",
     paddingBottom: 15,
   },
+
   companyImageContainer: {
     width: 50,
     height: 50,
@@ -344,16 +363,20 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginRight: 16,
   },
+
   transactionDetails: {
     flex: 1,
   },
+
   companyName: {
     fontSize: 18,
     fontWeight: "500",
   },
+
   purpose: {
     fontSize: 13,
   },
+
   amount: {
     fontSize: 16,
     fontWeight: "500",
