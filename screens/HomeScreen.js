@@ -3,6 +3,8 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, FlatList } from 'react
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { ThemeContext } from '../components/ThemeContext';
 
+import cardImage from '../assets/images/card.png';
+
 const HomeScreen = () => {
   const { isDarkTheme } = useContext(ThemeContext);
 
@@ -22,7 +24,7 @@ const HomeScreen = () => {
       <View style={styles.cardContainer}>
         <Image source={cardImage} style={styles.cardImage} />
       </View>
-      
+
     </View>
   );
 };
