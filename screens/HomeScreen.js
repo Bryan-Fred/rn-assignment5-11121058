@@ -246,11 +246,11 @@ const styles = StyleSheet.create({
     paddingLeft: 12,
     paddingRight: 10,
   },
-  
+
   header: {
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 25,
+    marginBottom: 20,
   },
 
   userImage: {
